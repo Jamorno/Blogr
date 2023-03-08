@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+
+<body>
+
+  <main id="landing-page">
+
+    <header class="text-white text-center header">
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+          <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo-image"></a>
+
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-icon icon-top"></span>
+            <span class="navbar-icon icon-middle"></span>
+            <span class="navbar-icon icon-footer"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="mx-3 nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product
+                  <span class="nav-link-arrow arrow-right"></span>
+                  <span class="nav-link-arrow arrow-left"></span>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Pricing</a></li>
+                  <li><a class="dropdown-item" href="#">Marketplace</a></li>
+                  <li><a class="dropdown-item" href="#">Features</a></li>
+                  <li><a class="dropdown-item" href="#">Integrations</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="mx-3 nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Company
+                  <span class="nav-link-arrow arrow-right"></span>
+                  <span class="nav-link-arrow arrow-left"></span>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Team</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="mx-3 nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Connect
+                  <span class="nav-link-arrow arrow-right"></span>
+                  <span class="nav-link-arrow arrow-left"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                  <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item btn-login">
+                <a class="nav-link active text-white" aria-current="page" href="#">Login</a>
+              </li>
+
+              <li class="nav-item btn-sign-up">
+                <a class="nav-link active sign-up" aria-current="page" href="#">Sign Up</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="heading">
+        <h1>A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+
+        <div class="col-12 col-lg-12">
+          <button class="mx-2 btn-heading start">Start for Free</button>
+          <button class="mx-2 btn-heading learn-more">Learn More</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- top-content -->
+    <section class="top-content">
+      <h2 class="text-center top-content-heading-head">
+        Designed for the future
+      </h2>
+
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <img class="d-lg-none img-editor-mobile" src="images/illustration-editor-mobile.svg"
+            alt="editor-mobile-image-mobile">
+          <img class="d-none d-lg-block img-editor-desktop" src="images/illustration-editor-desktop.svg"
+            alt="editor-mobile-image-desktop">
+        </div>
+
+        <div class="col-lg-6 order-lg-first">
+          <h2 class="top-content-heading">Introducing an extensible editor</h2>
+          <p class="top-content-content">
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.
+          </p>
+
+          <h2 class="top-content-heading">Robust content management</h2>
+          <p class="top-content-content">
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- middle-content -->
+    <section class="middle-content">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="phone-image" src="images/illustration-phones.svg" alt="phone-image">
+        </div>
+
+        <div class="col-lg-6">
+          <h3 class="middle-content-heading">State of the Art Infrastructure</h3>
+          <p class="middle-content-content">
+            With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer-content -->
+    <section class="footer-content">
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <img class="d-lg-none laptop-image-mobile" src="images/illustration-laptop-mobile.svg"
+            alt="laptop-image-mobile">
+          <img class="d-none d-lg-block laptop-image-desktop" src="images/illustration-laptop-desktop.svg"
+            alt="aptop-image-desktop">
+        </div>
+
+        <div class="col-lg-6 footer-content-text">
+          <h4 class="footer-content-heading">Free, open, simple</h4>
+          <p class="footer-content-content">
+            Blogr is a free and open source application backed by a large community of helpful developers. It supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+            tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+          </p>
+
+          <h4 class="footer-content-heading">Powerful tooling</h4>
+          <p class="footer-content-content">
+            Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
+            breeze,
+            but
+            capable of producing even the most complicated sites.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="row g-0">
+
+        <div class="col-lg-3 footer-logo-image">
+          <img src="images/logo.svg" alt="logo-image">
+        </div>
+
+        <div class="col-lg-3">
+          <h5 class="footer-heading">Product</h5>
+          <div class="footer-content">
+            <p class="footer-content-link">Overview</p>
+            <p class="footer-content-link">Pricing</p>
+            <p class="footer-content-link">Marketplace</p>
+            <p class="footer-content-link">Features</p>
+            <p class="footer-content-link">Integrations</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <h5 class="footer-heading">Company</h5>
+          <div class="footer-content">
+            <p class="footer-content-link">About</p>
+            <p class="footer-content-link">Team</p>
+            <p class="footer-content-link">Blog</p>
+            <p class="footer-content-link">Careers</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <h5 class="footer-heading">Connect</h5>
+          <div class="footer-content">
+            <p class="footer-content-link">Contact</p>
+            <p class="footer-content-link">Newsletter</p>
+            <p class="footer-content-link">LinkedIn</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>

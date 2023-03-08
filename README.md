@@ -1,1 +1,1 @@
-# Blogr
+# Blogr landing page

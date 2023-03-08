@@ -1,2 +1,2 @@
 # Blogr landing page
-Live site https://jamorno.github.io/Blogr/
+Visit site https://jamorno.github.io/Blogr/
